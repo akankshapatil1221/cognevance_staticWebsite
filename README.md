@@ -58,6 +58,24 @@ Project-1-Static-Website/
 ├── README.md
 └── akanksha.jpeg
 
+## Screenshots
+
+### Desktop View
+
+![Desktop View](screenshots/website-desktop.png)
+
+### Mobile View
+
+![Mobile View](screenshots/website-mobile.png)
+
+### GitHub Repository
+
+![GitHub Repository](screenshots/github-repository.png)
+
+### GitHub Pages Deployment
+
+![GitHub Pages Deployment](screenshots/github-pages.png)
+
 ## Internship
 
 This project is completed as part of the Cloud Computing & DevOps internship
