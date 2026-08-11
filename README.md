@@ -26,6 +26,28 @@ deployment using GitHub Pages.
 - Contact section
 - GitHub Pages deployment
 
+## Project Structure
+
+Project-1-Static-Website/
+
+│
+├── .github/
+│   └── workflows/
+│       └── website-monitor.yml
+│
+├── screenshots/
+│   ├── website-desktop.png
+│   ├── website-mobile.png
+│   ├── github-repository.png
+│   ├── github-pages.png
+│   └── uptime-monitoring.png
+│
+├── akanksha.jpeg
+├── app.js
+├── index.html
+├── README.md
+└── style.css
+
 ## How to Run Locally
 
 1. Clone the repository.
@@ -48,27 +70,20 @@ GitHub Repository:
 
 https://github.com/akankshapatil1221/cognevance_staticWebsite
 
-## Project Structure
+## Monitoring
 
-Project-1-Static-Website/
+Website uptime and basic performance are monitored using a GitHub Actions workflow.
 
-│
-├── .github/
-│   └── workflows/
-│       └── website-monitor.yml
-│
-├── screenshots/
-│   ├── website-desktop.png
-│   ├── website-mobile.png
-│   ├── github-repository.png
-│   ├── github-pages.png
-│   └── uptime-monitoring.png
-│
-├── akanksha.jpeg
-├── app.js
-├── index.html
-├── README.md
-└── style.css
+The monitoring workflow checks the live website periodically and records:
+
+- HTTP response status
+- Website availability
+- Response time
+- Monitoring workflow status
+
+Workflow file:
+
+`.github/workflows/website-monitor.yml`
 
 ## Screenshots
 
