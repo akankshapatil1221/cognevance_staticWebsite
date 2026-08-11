@@ -76,6 +76,10 @@ Project-1-Static-Website/
 
 ![GitHub Pages Deployment](screenshots/github-pages.png)
 
+### Uptime Monitoring
+
+![Uptime Monitoring](screenshots/uptime-monitoring.png)
+
 ## Internship
 
 This project is completed as part of the Cloud Computing & DevOps internship
