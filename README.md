@@ -52,11 +52,23 @@ https://github.com/akankshapatil1221/cognevance_staticWebsite
 
 Project-1-Static-Website/
 
-├── index.html
-├── style.css
+│
+├── .github/
+│   └── workflows/
+│       └── website-monitor.yml
+│
+├── screenshots/
+│   ├── website-desktop.png
+│   ├── website-mobile.png
+│   ├── github-repository.png
+│   ├── github-pages.png
+│   └── uptime-monitoring.png
+│
+├── akanksha.jpeg
 ├── app.js
+├── index.html
 ├── README.md
-└── akanksha.jpeg
+└── style.css
 
 ## Screenshots
 
